@@ -25,5 +25,6 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
   - `"build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"`
 - Crear base HTML (index.html)
-- Crear la pagina Home, 404
-- Crear template que son partes de una página (Header, Character)
+- Crear la pagina Home, 404, Character
+- Crear template que son partes de una página (Header)
+- Crear el Router para las rutas de la aplicación

@@ -1,0 +1,30 @@
+{
+  "name": "spa_js_vanilla",
+  "version": "1.0.0",
+  "description": "Desarrollo de una SPA con Javascript Vanilla que se servirá de la api rest de Rick y Morty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubdev/SPA_JS_Vanilla.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Rubén Segura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubdev/SPA_JS_Vanilla/issues"
+  },
+  "homepage": "https://github.com/rubdev/SPA_JS_Vanilla#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.1",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

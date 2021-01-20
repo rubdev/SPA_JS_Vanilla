@@ -11,3 +11,12 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
 ***Desventajas:***
 - No es buena para el SEO ya que nuestra aplicación solo va a tener 1 cabecera a indexar.
 - No es recomendable para grandes aplicaciones.
+
+### Instrucciones a seguir
+- Inicializar nuestro proyecto con `npm init`
+- Construir la siguiente estructura de proyecto
+  ![estructura del proyecto](https://link)
+
+- Configurar WebPack con Babel `npm install @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server`
+
+- Crear archivo webpack.config.js con la configuración del proyecto

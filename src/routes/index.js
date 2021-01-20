@@ -19,6 +19,15 @@ const router = async () => {
     const content = null || document.getElementById('content');
 
     header.innerHTML = await Header();
+    // obtenemos el hash de la ruta
+    let hash = getHash();
+    // realizamos la petición de la ruta
+    let route = await resolveRoutes(hash);
+    // vemos la ruta a renderizar o mostramos error 404
+    let render = routes[route] ? routes[route] : Error404;
+    // le añadimos a content la pagina de la ruta
+    content.innerHTML = await render();
+
 }
 
 export default router;

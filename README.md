@@ -29,3 +29,5 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
 - Crear template que son partes de una página (Header)
 - Crear el Router para las rutas de la aplicación
 - Crear Util getHash para obtener el hash de la url y pasarle valores como el id
+-  Crear Util resolverRoutes
+- 

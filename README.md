@@ -18,5 +18,10 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
   ![estructura del proyecto](https://link)
 
 - Configurar WebPack con Babel `npm install @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server`
+  - **utilizar estas versiones de webpack `npm i webpack@4 webpack-cli@3`**
 
 - Crear archivo webpack.config.js con la configuración del proyecto
+- Crear scripts para servidor de desarrollo y producción en package.json 
+  - `"build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"`
+- Crear base HTML (index.html)

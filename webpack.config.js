@@ -16,20 +16,20 @@ module.exports = {
         rules: [
             {
                 test: /\.js?$/,
-                exclude: /node_modules/, // exclusiones no necesarias
+                exclude: /node_modules/, // Excluimos la carpeta de node modules
                 use: {
-                    loadedr: 'babel-loader' // usamo el loader de babel
+                    loader: 'babel-loader' // usamo el loader de babel
                 }
             }
         ]
     },
-    plugin: [ 
+    plugins: [ 
         // establecer plugins que vamos a usar
-        new htmlWebPackPlugin([
+        new htmlWebPackPlugin([ //Permite trabajar con los archivos HTML
             {
-                inject: true,
-                template: './public/index.html',
-                filename: './index.html'
+                inject: true, // Cómo vamos a inyectar un valor a un archivo HTML.
+                template: './public/index.html',  // Dirección donde se encuentra 
+                filename: './index.html' //El nombre que tendrá el archivo
             }
         ])
     ]

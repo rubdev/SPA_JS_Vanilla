@@ -32,3 +32,6 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
 - Crear Util resolverRoutes
 - Crear Util getData para obtener datos de la API
 - Modificar home y character para que utilice los datos de la API
+- Configurar proyecto para trabajar con estilos CSS `copy-webpack-plugin --save-dev`
+  - **Si vuelve a dar problemas reinstala webpack `webpack@latest --also=dev`**
+- Añadir los ficheros de CSS.

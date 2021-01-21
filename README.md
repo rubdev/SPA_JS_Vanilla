@@ -31,3 +31,4 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
 - Crear Util getHash para obtener el hash de la url y pasarle valores como el id
 - Crear Util resolverRoutes
 - Crear Util getData para obtener datos de la API
+- Modificar home y character para que utilice los datos de la API

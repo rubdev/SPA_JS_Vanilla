@@ -8,18 +8,18 @@ const Character = async () => {
     const character = await getData(id);
     console.log(character);
     const view = `
-        <div class="characters-inner">
+        <div class="card characters-inner" style="width: 20rem;">
             <article class="character-card">     
-                <img src="${character.image}" alt="${character.name}">
-                <h2>${character.name}</h2>
+                <img class="card-img-top" src="${character.image}" alt="${character.name}"> 
             </article>
-            <article class="character-card">
-                <h3>Episodios: <span>${character.episode.length}</span></h3>
-                <h3>Estado: <span>${character.status}</span></h3>
-                <h3>Especie: <span>${character.species}</span></h3>
-                <h3>Género: <span>${character.gender}</span></h3>
-                <h3>Origen: <span>${character.origin.name}</span></h3>
-                <h3>Última localización: <span>${character.location.name}</span></h3>
+            <article class="card-body character-card">
+                <h3>${character.name}</h3>
+                <p class="card-text">Episodios: <span>${character.episode.length}</span></p>
+                <p class="card-text">Estado: <span>${character.status}</span></p>
+                <p class="card-text">Especie: <span>${character.species}</span></p>
+                <p class="card-text">Género: <span>${character.gender}</span></p>
+                <p class="card-text">Origen: <span>${character.origin.name}</span></p>
+                <p class="card-text">Última localización: <span>${character.location.name}</span></p>
             </article>
         </div>
     `;

@@ -36,4 +36,11 @@ Es un tipo de aplicación desarrollada con JavaScript que nos permite cargar nue
   - **Si vuelve a dar problemas reinstala webpack `webpack@latest --also=dev`**
 - Añadir los ficheros de CSS.
 - Generar Script de integración continua para desplegar nuestro proyecto en Github Pages
-- 
+
+### Ampliando el proyecto
+#### Añadir estilos bootstrap
+- Primero debemos instalarlos el proyecto con `npm install bootstrap`
+- También instalar dependencias necesarias de boostrap `npm install --save jquery popper.js`
+- Importar el código JavaScript de Bootstrap añadiendo la siguiente línea en el punto de entrada de la aplicación (en este caso index.js) `import 'bootstrap';`
+- También el CSS `import 'bootstrap/dist/css/bootstrap.min.css';`
+- Añadir todo esto también a la configuración de webpack (ver archivo).

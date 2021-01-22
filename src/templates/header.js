@@ -1,18 +1,13 @@
 const Header = () => {
     const view = `
-        <div class="header-main">
-            <div class="Header-logo">
+        <div class="navbar header-main">
+            <div class="navbar-brand Header-logo">
                 <h1>
-                <a href="/">
-                    100tifi.co
-                </a>
+                    <a href="/">
+                        100tifi.co
+                    </a>
                 </h1>
             </div>
-        </div>
-        <div class="header-nav">
-            <a href="#/about">
-                About
-            </a>
         </div>
     `;
     return view;

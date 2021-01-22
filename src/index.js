@@ -1,5 +1,8 @@
 console.log('Hola mundo');
 import router from './routes'
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 // Escucha los archivos que se han cargado
 window.addEventListener('load', router);
